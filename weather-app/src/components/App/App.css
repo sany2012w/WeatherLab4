@@ -1,0 +1,12 @@
+.App {
+  width: 70%;
+  margin: 2% 15%;
+  font-family: sans-serif;
+  background-color: rgba(197, 204, 213, 0.5);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1%;
+  border-style: ridge;
+  border-color: #3d485b;
+  border-width: 3px;
+}

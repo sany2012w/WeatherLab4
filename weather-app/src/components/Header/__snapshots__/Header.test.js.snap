@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Header displayed correctly 1`] = `
+<div
+  className="header"
+>
+  <div
+    className="headerText"
+  >
+    Weather here
+  </div>
+  <button
+    className="headerButton"
+  >
+    Update Geolocation
+  </button>
+</div>
+`;

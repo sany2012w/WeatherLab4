@@ -1,0 +1,65 @@
+.WeatherBlock {
+    margin-top: 30px;
+    font-size: 20px;
+}
+
+.leftWeather {
+  width: 20%;
+  float: left;
+}
+
+.rightWeather {
+  padding-top: 5%;
+}
+
+.City {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.Icon {
+  margin-top: 70px;
+  margin-left: 10px;
+  border: 2px #3d485b ridge;
+}
+
+.Temp {
+  margin: 10px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Pressure, .Humidity, .Wind, .Clouds, .Coords {
+  font-family: sans-serif;
+  margin-left: 20%;
+  background-color: rgba(197, 204, 213, 0.7);
+  background-repeat: no-repeat;
+  padding: 1%;
+  border-style: ridge;
+  border-color: #3d485b;
+  border-width: 1px;
+}
+
+.button {
+  padding: 1%;
+  outline: none;
+  font-family: 'Bitter', serif;
+  color: #21224b;
+  border: 2px #3d485b ridge;
+  border-radius: 5px;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.button:hover {
+  background-color: #586d7c;
+  border-color: #c18ce3;
+  color: white;
+  cursor: pointer;
+}
+
+.button:active {
+  border-style: inset;
+}

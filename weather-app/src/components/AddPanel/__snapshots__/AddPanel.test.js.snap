@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddPanel displayed correctly 1`] = `
+<div
+  className="CitiesPanel"
+>
+  <div
+    className="CitiesText"
+  >
+    Favorites
+  </div>
+  <form
+    onSubmit={[Function]}
+  >
+    <input
+      className="CitiesInput"
+      name="cityName"
+      placeholder="City name"
+      required={true}
+      type="text"
+    />
+    <input
+      className="CitiesButton"
+      type="submit"
+      value="Add city"
+    />
+  </form>
+</div>
+`;

@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Error 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="error"
+  >
+    Error: 
+    Something wrong
+  </div>
+</div>
+`;
+
+exports[`There are coords with forecast 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="WeatherBlock"
+  >
+    <div
+      className="City"
+    >
+      London
+    </div>
+    <div
+      className="leftWeather"
+    >
+      <img
+        className="Icon"
+        src="https://openweathermap.org/img/wn/09d.png"
+      />
+      <div
+        className="Temp"
+      >
+        7
+         °C
+      </div>
+    </div>
+    <div
+      className="rightWeather"
+    >
+      <div
+        className="Pressure"
+      >
+        Pressure: 
+        1012
+         hPa
+      </div>
+      <div
+        className="Humidity"
+      >
+        Humidity: 
+        81
+        %
+      </div>
+      <div
+        className="Clouds"
+      >
+        Clouds: 
+        light intensity drizzle
+      </div>
+      <div
+        className="Wind"
+      >
+        Wind: 
+        4.1
+         m/s
+      </div>
+      <div
+        className="Coords"
+      >
+        Coordinates: [
+        -0.13
+        , 
+        51.51
+        ]
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`There are only coords without forecast 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="loader-circle"
+    />
+    <div
+      className="loader-bottom"
+    >
+      Please wait, weather is loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Weather data is loading and no forecast 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="loader-circle"
+    />
+    <div
+      className="loader-bottom"
+    >
+      Please wait, weather is loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Weather data is loading and there is forecast 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="wrapper"
+  >
+    <div
+      className="loader-circle"
+    />
+    <div
+      className="loader-bottom"
+    >
+      Please wait, weather is loading...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Weather data loaded 1`] = `
+<div>
+  <div
+    className="header"
+  >
+    <div
+      className="headerText"
+    >
+      Weather here
+    </div>
+    <button
+      className="headerButton"
+      onClick={[Function]}
+    >
+      Update Geolocation
+    </button>
+  </div>
+  <div
+    className="WeatherBlock"
+  >
+    <div
+      className="City"
+    >
+      London
+    </div>
+    <div
+      className="leftWeather"
+    >
+      <img
+        className="Icon"
+        src="https://openweathermap.org/img/wn/09d.png"
+      />
+      <div
+        className="Temp"
+      >
+        7
+         °C
+      </div>
+    </div>
+    <div
+      className="rightWeather"
+    >
+      <div
+        className="Pressure"
+      >
+        Pressure: 
+        1012
+         hPa
+      </div>
+      <div
+        className="Humidity"
+      >
+        Humidity: 
+        81
+        %
+      </div>
+      <div
+        className="Clouds"
+      >
+        Clouds: 
+        light intensity drizzle
+      </div>
+      <div
+        className="Wind"
+      >
+        Wind: 
+        4.1
+         m/s
+      </div>
+      <div
+        className="Coords"
+      >
+        Coordinates: [
+        -0.13
+        , 
+        51.51
+        ]
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+.header {
+  padding: 1% 2%;
+  font-size: 25px;
+}
+
+.header .headerText {
+  font-family: 'Bitter', serif;
+  color: #21224b;
+  width: 70%;
+  float: left;
+  font-weight: bold;
+}
+
+.header .headerButton {
+  font-family: 'Bitter', serif;
+  color: #21224b;
+  border: 2px #3d485b ridge;
+  border-radius: 5px;
+  margin-left: 10px;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+  outline: none;
+}
+
+.header .headerButton:hover {
+  background-color: #586d7c;
+  border-color: #c18ce3;
+  color: white;
+  cursor: pointer;
+}
+
+.header .headerButton:active {
+  border-style: inset;
+}
